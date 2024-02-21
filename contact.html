@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <!-- Linking to external CSS file -->
+    <link rel="stylesheet" type="text/css" href="css_forport/style.css">
+    <title>CONTACT</title>
+    <!-- Linking to external JavaScript file -->
+    <script src="script.js" defer></script>
+</head>
+
+<body class="contact-me">
+    <header>
+        <!-- Navigation menu -->
+        <nav class="nav">
+            <ul>
+                <li><a href="HOME.html">HOME</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <!-- Main header -->
+        <h1 id="main-header">CONTACT ME</h1>
+        <hr>
+        <!-- Section for project schedule inquiry form -->
+        <h3>Project Schedule Inquiry</h3>
+        <form id="Inquiry">
+            <!-- Input fields for name, project date, duration, description, email, phone -->
+            <input type="text" id="name" placeholder="Name" required title="Enter Name"/>
+            <br><br>
+            <label for="Inquiry">Date of Project</label>
+            <input type="date" id="projectdate" name="projectdate">
+            <br>
+            <br>
+            <label for="duration">Duration in days:</label>
+            <input type="number" id="duration" name="duration" min="1" required>
+            <br><br>
+            <label for="description">Description:</label><br>
+            <textarea id="description" name="description" rows="4" cols="50"></textarea><br>
+            <br><br>
+            <input type="email" name="email" placeholder="Email"/>
+            <br>
+            <br>
+            <input type="email" name="confirmemail" placeholder="Confirm Email"/>
+            <br>
+            <br>
+            <input type="tel" name="phone" placeholder="Phone Number"/> 
+            <br><br>
+            <!-- Submit button -->
+            <input type="submit" value="Submit" id="submit"/>
+            <!-- Checkboxes for preferred contact method -->
+            <label>How To Contact You</label> 
+            <label> <input type="checkbox" name="text-cbx" value="text"/>Text</label>
+            <label> <input type="checkbox" name="email-cbx" value="email"/>Email</label>
+            <br> <br>
+        </form>
+    </header>
+    
+    <!-- Section for image with quote -->
+    <section>
+        <div class="image-container">
+            <img src="images/pinterest background.jpg" width="1250" height="300">
+            <div class="image-text">
+                <!-- Quote with author -->
+                <blockquote>
+                    <p>"Great minds don't think alike."</p>
+                    <footer>— Lynda Mullaly Hunt</footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+    
+    <main>
+        <!-- Footer section with contact information -->
+        <footer>
+            <h2>Where to contact me?</h2>
+            <hr>
+            <p>Alshayma Alhoothy <br>
+            <!-- Contact details -->
+            <label>My Email:</label> 230059904@aston.ac.uk<br>
+            <label>Student number:</label>230059904</p>
+            <!-- Links to social media profiles -->
+            <img class="logo" src="images/linkedin.png"><a href="https://www.linkedin.com/in/alshayma-mohammed-8b756428b/">LinkedIn</a>
+            <img class="logo" src="images/github.png"><a href="https://github.com/AlShayma12">GitHub</a>
+        </footer>
+    </main>
+</body>
+</html>

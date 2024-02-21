@@ -1,0 +1,261 @@
+/* Styling for a flex container */
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  border: solid;
+}
+
+/* Styling for sections inside the flex container */
+.boxes section {
+  flex: 1;
+  margin: 0 10px; 
+}
+
+/* Styling for buttons inside sections */
+.boxes section button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: solid;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styling for links inside sections */
+.boxes section a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Styling for specific sections */
+.about-me,
+#contact-details {
+  margin-top: 20px; 
+}
+
+/* Styling for headings */
+h1, h2, h3 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+/* Styling for specific sections identified by ID */
+#PYTHON, #JAVA, #JAVAonEcllipse {
+  border: solid;
+}
+
+/* Styling for navigation menu */
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(244, 194, 194);
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: #111;
+}
+
+/* Styling for main header */
+#main-header {
+  color: rgb(31,73,61);
+}
+
+/* Styling for the body */
+body {
+  background-color: #EEEAE8
+}
+
+/* Styling for about me section */
+.about-me {
+  border: solid;
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+/* Styling for logo */
+.logo p {
+  display: inline; 
+  vertical-align: middle; 
+}
+
+.logo {
+  width: 1em; 
+  height: auto; 
+  margin-right: 5px; 
+}
+
+/* Styling for image container */
+.image-container {
+  position: relative;
+}
+
+/* Styling for text on image */
+.image-text {
+  position: absolute;
+  top: 90%;
+  left: 20%; 
+  transform: translate(-50%, -50%);
+  color: rgb(211, 214, 212);
+  font-size: 15px;
+  font-weight: bold;
+  z-index: 1;
+}
+
+/* Styling for container */
+.container {
+  display: flex;
+  align-items: center;
+}
+
+/* Styling for portfolio picture */
+#portpic {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+/* Styling for text on portfolio picture */
+#portpic-text {
+  font-size: 25px;
+  color: rgb(from color 31,73,61);
+}
+
+/* Styling for contact details heading */
+.contact-details h2 {
+  color: rgb(31,73,61);
+}
+
+/* More styling for about me section */
+.about-me {
+  background-color: #f3efea; 
+  border: 2px solid #ccc; 
+  border-radius: 10px; 
+  padding: 20px; 
+  margin-bottom: 20px; 
+}
+
+/* Styling for headings in about me section */
+.about-me h2 {
+  color: #1f493d; 
+}
+
+/* Styling for paragraphs in about me section */
+.about-me p {
+  color: #1f493d; 
+}
+
+/* Styling for project navigation buttons */
+#project-navigation button {
+  padding: 10px 20px; 
+  font-size: 16px; 
+  background: linear-gradient(to right, #5126ea, #be8eb5); /* Gradient background */
+  color: white; 
+  border: none; 
+  cursor: pointer; 
+  margin-bottom: 20px;
+  border-radius: 5px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect for project navigation buttons */
+#project-navigation button:hover {
+  background: linear-gradient(to right, #be8eb5, #0f4227); 
+}
+
+/* Styling for forms */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Styling for form inputs */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Styling for submit button */
+input[type="submit"] {
+  background-color: #b073ab;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for submit button */
+input[type="submit"]:hover {
+  background-color: #082b1a;
+}
+
+/* Styling for contact page */
+.contact-me {
+  background-size: cover;
+  background-position: center;
+  color: #333;
+}
+
+/* More styling for contact page paragraphs */
+.contact-me p {
+  font-family: 'Open Sans', sans-serif;
+  color: #666;
+}
+
+/* Styling for project examples section */
+.porject {
+  display: flex; 
+  flex-wrap: wrap; 
+}
+
+/* Styling for sections within project examples */
+.porject section {
+  width: 100%; 
+  margin: 0 0 20px;
+  padding: 20px; 
+  border: 2px solid #ccc; 
+  border-radius: 10px; 
+  box-sizing: border-box; 
+}
+
+/* Styling for headings within project examples */
+#projects h3 {
+  color: #3f1142
+}
+
+/* Styling for images within project examples */
+.porject img {
+  display: block; 
+  margin: 10px auto; 
+  max-width: 100%; 
+  height: auto; 
+}
